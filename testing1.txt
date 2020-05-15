@@ -1,0 +1,609 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Moraspirit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <base href="/">
+    
+    <meta name="description" content="MoraSpirit, the leading light of university sports is in its way to create a full of pride, highly passionate sporting culture at university level in Sri Lanka.">
+    <meta name="keywords" content="inter university championship, inter uni games, inter university games, inter university championship results, inter university championship points, inter university championship updates, inter university championship news">
+
+    <title>MoraSpirit Initiative | Empowering University Sports in Sri Lanka</title>
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- core style css -->
+    <link href="css/styles.css" rel="stylesheet" id="colors" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cae1b9b9852eb0011cea214&product=sticky-share-buttons' async='async'></script>
+    <!-- Twitter Graph data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="MoraSpirit Initiative | Empowering University Sports in Sri Lanka">
+    <meta name="twitter:description" content="MoraSpirit, the leading light of university sports is in its way to create a full of pride, highly passionate sporting culture at university level in Sri Lanka.">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="https://www.moraspirit.com/img/banner/main.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="MoraSpirit Initiative | Empowering University Sports in Sri Lanka" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.moraspirit.com/img/banner/main.jpg" />
+    <meta property="og:description" content="MoraSpirit, the leading light of university sports is in its way to create a full of pride, highly passionate sporting culture at university level in Sri Lanka." />
+    <meta property="og:site_name" content="MoraSpirit Initiative | Empowering University Sports in Sri Lanka" />      
+    
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.moraspirit.com/",
+                    "name": "Home"
+                }
+            }]
+        }
+    </script>
+
+    <!-- Markup Data -->
+<script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "url": "https://www.sports.moraspirit.com",
+                "logo": "https://www.sports.moraspirit.com/img/msp-logo.jpg",
+                "sameAs": [
+                    "https://www.facebook.com/MoraSpirit.Official.fanpage/",
+                    "https://www.instagram.com/moraspirit_/",
+                    "https://twitter.com/@moraspiritNews",
+                    "https://www.youtube.com/channel/UCLEl7xoPnnvMrgYTshIRf0Q"
+                ],
+                "contactPoint": [
+                    { "@type": "ContactPoint",
+                        "telephone": "(+94) 71 674 6445",
+                        "contactType": "customer service"
+                    }
+                ]
+            }
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120356964-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-120356964-2');
+        </script>
+	<!-- Slick slider styles css -->
+	<link rel="stylesheet" type="text/css" href="css/plugins/slickslider/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/plugins/slickslider/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slickslider.custom.scss"/>
+	<!--Slick slider styles css -->
+</head>
+
+<body>
+
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- end page loading -->
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+        xfbml            : true,
+        version          : 'v3.2'
+        });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="132093176814364">
+    </div>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2093378744243845&autoLogAppEvents=1"></script>
+    <!-- start main-wrapper section -->
+    <div class="main-wrapper">
+        <header class="position-absolute width-100 index-header sm-position-relative">
+            
+            <div class="navbar-default">
+            <!-- start top search -->
+            <div class="top-search bg-theme">
+                <div class="container">
+                    <form class="search-form" action="news" method="GET" accept-charset="utf-8">
+                        <div class="input-group">
+                            <span class="input-group-addon cursor-pointer">
+                                <button class="search-form_submit fas fa-search font-size18 text-white" type="submit"></button>
+                            </span>
+                            <input type="text" class="search-form_input form-control margin-10px-lr" name="s" autocomplete="off" placeholder="Type & hit enter...">
+                            <span class="input-group-addon close-search"><i class="fas fa-times font-size18 margin-5px-top"></i></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end top search -->
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="menu_area alt-font">
+                            <nav class="navbar navbar-expand-lg navbar-light no-padding">
+
+                                <div class="navbar-header navbar-header-custom">
+                                    <!-- start logo -->
+                                    <a href="/" class="navbar-brand"><img id="logo" src="img/logos/logo.png" alt="logo"></a>
+                                    <!-- end logo -->
+                                </div>
+
+                                <div class="navbar-toggler"></div>
+
+                                <!-- start menu Area -->
+                                <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="news">News</a></li>
+                                    <li><a href="projects">Projects</a></li>
+                                    <li><a href="services">Services</a></li>
+                                    <li><a href="javascript:void(0)">Company</a>
+                                        <ul>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="active-crew">Active Crew</a></li>
+                                            <li><a href="careers">Careers</a></li>
+                                            <li class="has-sub"><span class="submenu-button"></span><a href="javascript:void(0)">History</a>
+                                                <ul>
+                                                    <li><a href="chandrishan-perera">Chandrishan Perera</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact">Contact Us</a></li>
+                                </ul>
+                                <!-- end menu Area -->
+
+                                <!-- start attribute navigation -->
+                                <div class="attr-nav sm-no-margin sm-margin-65px-right">
+                                    <ul>
+                                        <li class="search"><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!-- end attribute navigation -->
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+				<!-- start main banner area -->
+        <div class="main-banner-area">
+            <!-- start right image banner -->
+			<div id="image_slider">
+				<div>	
+					<div class="right-bg">
+						<img src="img/banner/header.jpg" class="img-fluid float-right width-100" alt="MoraSpirit Banner">
+					</div>
+				</div>
+				<div>	
+					<div class="slide-bg">
+						<a href="https://www.moraspirit.com">
+							<img src="https://i.ibb.co/JHVCwCb/la2.jpg" class="img-fluid float-right width-100" alt="MoraSpirit Banner">
+						</a>
+					</div>
+				</div>			</div>
+            <!-- end right image banner -->
+			
+			<!-- start shape area -->
+            <div class="header-shape-bg">
+                <img src="img/banner/header-bg.svg" class="img-fluid width-100" alt="MoraSpirit Website">
+            </div>
+            <!-- end shape area -->
+			
+			<!-- start banner text -->
+			<div class="header-text">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-12 col-sm-12">
+							<div id="image_slider_text">
+								<div>
+									<span>
+										<a class="slider_text_overlapper" href="javascript:void(0)"><div></div></a>
+										<h1 class=" wow fadeInUp" data-wow-delay=".1s">Welcome MoraSpirit!</h1>
+										<h2 class=" wow fadeInUp" data-wow-delay=".2s">Empowering University Sports in Sri Lanka</h2>
+										<p class=" wow fadeInUp" data-wow-delay=".3s">MoraSpirit, the leading light of university sports is in its way to create a full of pride, highly passionate sporting culture at university level in Sri Lanka.</p>
+										<a data-wow-delay=".6s" href="news" class="butn wow fadeIn"><span>Sports News</span></a> 
+										<a data-wow-delay=".6s" href="https://www.sports.moraspirit.com" class="butn wow fadeIn" target="_blank"><span>SLUG 2019</span></a>
+									</span>
+								</div>
+																<div>
+									<span class="slider_text">
+										<a class="slider_text_overlapper" href="https://www.moraspirit.com"><div></div></a>
+										<h1>MSP</h1>
+										<h2>MSP</h2>
+										<p>MSP</p>
+										<a href="https://www.moraspirit.com" class="butn wow fadeIn"><span>MSP</span></a>
+									</span>
+								</div>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end banner text -->
+			
+		</div>
+        <!-- end main banner area -->
+		        
+
+        <!-- start service section -->
+        <section class="bg-light-gray">
+            <div class="container">
+                <div class="text-center section-heading">
+                    <h2>We Love Sports & We Encourage</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
+                        <div class="services-block padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".2s">
+                            <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                                <i class="fas fa-camera text-theme-color"></i>
+                                <div class="box-circle-large"></div>
+                                <div class="box-circle-small"></div>
+                            </div>
+                            <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Photography & Event Coverage</h3>
+                            <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">We provide full photography and event coverage to your sport.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
+                        <div class="services-block padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".4s">
+                            <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                                <i class="fas fa-film text-theme-color"></i>
+                                <div class="box-circle-large"></div>
+                                <div class="box-circle-small"></div>
+                            </div>
+                            <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Videography & Live Streaming</h3>
+                            <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">We stream your match live on Youtube or Facebook.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="services-block padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".6s">
+                            <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                                <i class="fas fa-newspaper text-theme-color"></i>
+                                <div class="box-circle-large"></div>
+                                <div class="box-circle-small"></div>
+                            </div>
+                            <h3 class="margin-15px-bottom font-size22 md-font-size20 xs-font-size18">News Articles & Media Coverage</h3>
+                            <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">We publish artcles and news about your event.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end service section -->
+
+        <!-- start innovate business section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 sm-text-center sm-margin-30px-bottom">
+                        <img src="img/home/msp.jpg" alt="MoraSpirit" />
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="padding-30px-left sm-no-padding">
+                            <h4 class="sm-margin-lr-auto sm-text-center xs-width-100 sm-margin-30px-bottom">MoraSpirit - The Spirit of Sports</h4>
+                            <div id="accordion" class="accordion-style">
+                                <div class="card">
+                                    <p align="justify">"MoraSpirit" – The Spirit of University Sports was launched in September 2009. It provides up to date reporting of sporting events in the university arena. MoraSpirit aims to uplift university sports to the highest of standards, create intelligent and well-rounded university undergraduates instilled with invaluable qualities and disciplines nurtured by sports and also to draw interest of authorities and other stakeholders towards them.</p>
+                                    <p align="justify">More than a website, MoraSpirit acts as a social network itself, gathering the university community together, forming a sports culture. Given there was no entity to showcase university sports in general, MoraSpirit focused broadly on recognizing all university sportsmen and women in an unbiased manner.</p>
+                                </div>
+                                <a href="about" class="butn"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end innovate business section -->
+
+        <!-- start contact section -->
+        <section class="parallax cover-background" data-overlay-dark="7" data-background="img/banner/bg9.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 text-center center-col">
+                        <h4 class="text-white sm-margin-20px-bottom">We Are the #1 News Publisher in University Sports</h4>
+                        <p class="text-white font-size16 xs-font-size14 margin-30px-bottom">As the leading University Sports Coverage Team in Sri Lanka, MoraSpirit covers thousands of sports events in an year. Read the amazing news articles on these events in our blog.</p>
+                        <a href="news" class="butn"><span>Visit Our Blog</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end contact section -->
+
+        <!-- start how it work section -->
+        <section class="bg-light-gray">
+			<div id="newsletter"></div>
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Popular on MoraSpirit</h3>
+                </div>
+            </div>
+            <div class="container-fluid no-padding xs-padding-15px-lr">
+                <div class="horizontaltab tab-style">
+                    <ul class="resp-tabs-list hor_1">
+						<li><i class="fas fa-newspaper text-theme-color"></i><span class="display-block xs-display-inline-block">Email Newsletter</span></li>
+                        <li><i class="fas fa-mobile-alt text-theme-color"></i><span class="display-block xs-display-inline-block">MoraSpirit App</span></li>
+						 <li><i class="fas fa-swimmer text-theme-color"></i><span class="display-block xs-display-inline-block">SLUG 2019</span></li>
+                    </ul>
+                    <div class="resp-tabs-container hor_1">
+						<div>
+							<div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
+                                        <img src="img/home/NewsletterImg.jpg" alt="MoraSpirit Email Newsletter">
+                                    </div>
+                                    <div class="col-lg-5 offset-lg-1">
+
+                                        <h5>Subscribe</h5>
+                                        <p>Do you keep missing the amazing news stories we publish on our website? Then, subscribe to our newsletter to not miss another article again. We will send a round up of our latest articles directly to your inbox. </p>
+										<p><span class="font-weight-bold"> Don't hesitate, subscribe now!</span></p>
+                                        
+										<!-- start Subscribe to Newsletter Field -->
+										<!-- start subscribe box -->
+										<div class="container pt-2" style="padding-left: 0px; padding-right:0px;">
+											<form method="post" id="formSubscriber">
+												<div class="row d-flex justify-content-start mb-2">
+													<div class="col-sm-8 align-self-center">
+														<input class="form-control mb-2" type="email" name="email" placeholder="Enter Your Email" id="subscribe_email" required>
+													</div>
+													<div class="col-sm-2 align-self-center">
+														<button class="butn mb-2" type="submit" style="padding:10px 28px" id="btnSubscribe"><span id="btnSubscribeSpan">Subscribe</span></button>
+													</div>
+												</div>
+												<div class="row d-flex justify-content-end text-right">
+													<div class="col-sm-auto align-self-end" style="font-size:13px;">
+														<a href="https://moraspirit.us4.list-manage.com/unsubscribe?u=5d1066786d013ad884f59f826&id=fdc77e9acb" target="_blank">Want to Unsubscribe?</a>
+													</div>
+												</div>
+											</form>
+										</div>
+										<!-- end suscribe box-->
+										<!-- start subscribe status modal -->
+										<div>
+										<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-hidden="true">
+											<div class="modal-dialog modal-dialog-centered">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h4 class="modal-title" id="defaultModalLabel">Subscription Status</h4>
+														<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													</div>
+													<div class="modal-body" id="subscribeModalBody" style="color: black;"></div>
+													<div class="modal-footer">
+														<div class="col-md-6" align="right">
+														<button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+										<!-- end subscribe status modal -->
+										<!-- end Subscribe to Newsletter -->
+										
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+                        <div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom order-lg-1 order-2">
+                                        <h5>MoraSpirit Mobile App</h5>
+                                        <p>Are you university sports fan? Want to know what is happening around IUC now? Just go to Google play store and download our newest addition MoraSpirit mobile app. We will hold onto you by updating with an article feed and a gallery that would escort you through the finest moments of university sports. Do not give up, all the university sports dealings are yours to relive. Specially, during the Inter University Championship, through our app, we provide you university rankings and speedy reliable results of the games played by each and every university.</p>
+                                        <a href="https://play.google.com/store/apps/details?id=com.moraspirit.moraspiritapp" class="butn"><span>Download MoraSpirit App</span></a>
+                                    </div>
+                                    <div class="col-lg-5 offset-lg-1 order-lg-2 order-1 sm-text-center sm-margin-20px-bottom">
+                                        <img src="img/home/AppImg.jpg" alt="MoraSpirit Mobile App" style="width:350px;height:380px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
+                                        <img src="img/home/slug.jpg" alt="SLUG">
+                                    </div>
+                                    <div class="col-lg-5 offset-lg-1">
+
+                                        <h5>SLUG 2019</h5>
+                                        <p>Sri Lanka University Games (SLUG) is a sporting event held once in three years with the participation of sportsmen and women from all 14 member universities of Sri Lanka Universities Sports Association (SLUSA) keeping with the standards and the traditions of Olympic Games. </p>
+                                        <p>Stay updated with MoraSpirit for SLUG 2019 news, schedule and results.</p>
+                                        <a href="https://www.sports.moraspirit.com/years/2019" target="_blank" class="butn"><span>Results</span></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end how it work section -->
+
+        <!-- start testmonials section -->
+        <section>
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Reviews for MoraSpirit</h3>
+                </div>
+                <div class="owl-carousel owl-theme" id="testmonials-carousel">
+                    <div class="testmonial-single text-center">
+                        
+                        <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Gobinath Sivarajah</h4>
+                        <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">Excellent Media Platform for the Sri Lanka Uni Guys. Untired job for many years is really amazing! Wishing you all the very best, the TEAM MORA SPIRIT! Love lots!!!</p>
+                        <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
+                    </div>
+                    <div class="testmonial-single text-center">
+                        <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Chamaka Rajapaksha</h4>
+                        <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">Thank you MoraSpirit for your excellent coverage throughout InterUni. Wish you all the best!</p>
+                        <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
+                    </div>
+                    <div class="testmonial-single text-center">
+                        <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Mahesh Wickramasinghe</h4>
+                        <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">The first and the best media for University Sports.</p>
+                        <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end testmonials section -->
+
+        <!-- start footer section -->
+        <footer>
+            <div class="container">
+                <div class="row margin-30px-bottom padding-30px-bottom border-bottom border-color-light-white">
+                    <div class="col-lg-4 col-md-12 sm-margin-30px-bottom text-center">
+                        <h3 class="footer-title-style text-white">Phone</h3>
+                        <p class="font-size16 sm-font-size14">Call : (+94) 71 674 6445</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 sm-margin-30px-bottom text-center">
+                        <h3 class="footer-title-style text-white">Email</h3>
+                        <p class="font-size16 sm-font-size14">info@moraspirit.com</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <h3 class="footer-title-style text-white">Location</h3>
+                        <p class="font-size16 sm-font-size14">125/56A, Peterson Lane, Colombo 06</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <ul class="social-icon-style2 no-margin">
+                            <li>
+                                <a href="https://www.facebook.com/MoraSpirit.Official.fanpage/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/@moraspiritNews" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCLEl7xoPnnvMrgYTshIRf0Q" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/moraspirit_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bar">
+                <div class="container">
+                    <p class="xs-font-size13">Copyright &copy; 2020. Moraspirit Initiative. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer section -->
+
+    </div>
+    <!-- end main-wrapper section -->
+
+    <!-- start scroll to top -->
+    <a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    <!-- end scroll to top -->    
+    </div>
+
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- modernizr js -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+    
+    <!-- navigation -->
+    <script src="js/nav-menu.js"></script>
+
+    <!-- tab -->
+    <script src="js/easy.responsive.tabs.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- jquery.counterup.min -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- waypoints js -->
+    <script src="js/waypoints.min.js"></script>
+
+    <!-- tab js -->
+    <script src="js/tabs.min.js"></script>
+
+    <!-- countdown js -->
+    <script src="js/countdown.js"></script>    
+
+    <!-- jquery.magnific-popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- wow js -->
+    <script src="js/wow.js"></script>
+
+    <!-- map js -->
+    <script src="js/map.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- contact form scripts -->
+    <script src="js/mailform/jquery.form.min.js"></script>
+    <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
+
+    <!-- all js include end -->	<!-- start suscribe form script-->
+	<script src="js/subscribe.js" type="text/javascript"></script>
+	<!-- end suscribe form script-->
+	<!-- start slick slider js script-->
+	<script src="css/plugins/slickslider/slick.min.js" type="text/javascript"></script>
+	<script src="js/slickslider.custom.js" type="text/javascript"></script>
+	<!-- end slick slider js-->
+</body>
+
+</html>
